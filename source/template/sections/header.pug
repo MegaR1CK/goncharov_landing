@@ -1,0 +1,26 @@
+header.header
+  .header__top
+    .container
+      .contacts
+        a.contact(href="mailto:xyz@gmail.com")
+          i.fa.fa-envelope.contact__icon(aria-hidden="true")
+          span.contact__text xyz@gmail.com
+
+        a.contact(href="tel:051-2310000")
+          i.fa.fa-mobile.contact__icon(aria-hidden="true")
+          span.contact__text 051-2310000
+
+      .networks
+        a.net(href="facebook.com")
+          i.fa.fa-facebook.net__icon(aria-hidden="true")
+        a.net(href="twitter.com")
+          i.fa.fa-twitter.net__icon(aria-hidden="true")
+        a.net(href="google.com")
+          i.fa.fa-google.net__icon(aria-hidden="true")
+  .header__bottom
+    .container
+      span.logo #[strong App]Logo
+      .nav
+        - var items = ['HOME', 'FEATURES', 'SCREENSHOTS', 'VIDEO', 'SERVICES', 'TESTIMONIALS', 'OUR TEAM', 'PARTNERS', 'PRICING']
+        each item in items
+          a.nav__link(href="#")=item
