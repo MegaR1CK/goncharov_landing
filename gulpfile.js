@@ -61,7 +61,7 @@ gulp.task('copy:fonts', function () {
 
 
 gulp.task('copy:images', function () {
-    return gulp.src('../source/images/**/*.*')
+    return gulp.src('source/images/**/*.*')
         .pipe(gulp.dest('build/images'));
 });
 

@@ -1,0 +1,40 @@
+.hero {
+  height: 465px;
+
+  &__title {
+    padding-top: 70px;
+    max-width: 590px;
+    font-family: $ff-hero__title;
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+  }
+
+  &__image {
+    margin-top: 1.2%;
+    float: right;
+  }
+
+  &__downloadButton {
+    width: 200px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 25px;
+
+    &__icon {
+      margin-left: 10px;
+    }
+
+    &__text {
+      font-family: $ff-hero__buttons;
+      max-width: 110px;
+      margin-right: 8%;
+      float: right;
+      color: white;
+    }
+  }
+}
