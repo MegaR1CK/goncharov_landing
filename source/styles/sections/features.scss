@@ -1,0 +1,86 @@
+.features {
+  margin-top: 5%;
+  text-align: center;
+
+  &__title {
+    font-family: $ff-section-title;
+  }
+
+  &__image {
+    margin-top: 4%;
+  }
+
+  &__left, &__right {
+    max-width: 30%;
+    margin-top: 6%;
+
+    &__feature {
+      margin-top: 20%;
+
+      &__icon {
+        margin-top: -1%;
+        color: #2666ce;
+        font-size: 2.8rem !important;
+
+        &:before {
+          border: 1px solid grey;
+          border-radius: 50%;
+          padding: 20px;
+        }
+      }
+      &__text {
+        margin-top: 7%;
+        font-size: 0.9rem;
+        color: grey;
+        font-family: $ff-feature;
+        font-weight: bold;
+      }
+      &__title {
+        font-size: 1.2rem;
+        font-family: $ff-feature;
+        font-weight: bold;
+      }
+      &__line {
+        margin-top: -4%;
+        width: 75px;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+
+  &__left {
+    float: left;
+    text-align: left;
+
+    &__feature {
+      &__icon {
+        float: left;
+      }
+      &__text, &__title {
+        margin-left: 32%;
+      }
+      &__line {
+        margin-left: 32%;
+      }
+    }
+  }
+
+  &__right {
+    float: right;
+    text-align: right;
+
+    &__feature {
+      &__icon {
+        float: right;
+        margin-top: -5%;
+      }
+      &__text, &__title {
+        margin-right: 32%;
+      }
+      &__line {
+        float: right;
+        margin-right: 32%;
+      }
+    }
+  }
+}
