@@ -1,0 +1,55 @@
+.screenshots {
+  text-align: center;
+  margin-top: 3%;
+
+  &__title {
+    font-family: $ff-section-title;
+  }
+  &__tables {
+    margin-top: 4%;
+
+    &__first {
+      margin-left: 1%;
+      float: left;
+      &__screen1 {
+        width: 295px;
+        height: 520px;
+        background-image: url("../../images/screenshot1.png");
+      }
+      &__screen2 {
+        width: 213px;
+        height: 225px;
+        background-image: url("../../images/screenshot2.png");
+      }
+      &__screen3 {
+        width: 213px;
+        height: 225px;
+        background-image: url("../../images/screenshot3.png");
+      }
+      &__screen4 {
+        width: 432px;
+        height: 200px;
+        background-image: url("../../images/screenshot4.png");
+      }
+    }
+    &__second {
+      position: relative;
+      left: -3px;
+
+      &__screen5 {
+        width: 510px;
+        height: 327px;
+        background-image: url("../../images/screenshot5.png");
+      }
+      &__screen6 {
+        width: 510px;
+        height: 193px;
+        background-image: url("../../images/screenshot6.png");
+      }
+    }
+  }
+}
+td {
+  border: 4px solid white;
+  background-repeat: no-repeat;
+}
