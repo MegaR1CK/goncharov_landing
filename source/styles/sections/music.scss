@@ -1,0 +1,35 @@
+.music {
+  min-height: 595px;
+  background-image: url("../../images/music-background.png");
+  margin-top: 4%;
+
+  &__image {
+    float: left;
+    margin-top: 8%;
+    margin-left: 6%;
+  }
+
+  &__text {
+    padding-top: 16%;
+    margin-left: 36%;
+    color: white;
+    font-family: $ff-music;
+
+    &__pretitle {
+      font-size: 0.9rem;
+    }
+    &__title {
+      font-weight: normal;
+      font-size: 1.8rem;
+    }
+    &__line {
+      margin-top: -2%;
+      width: 70px;
+      border-bottom: 1px solid white;
+    }
+    &__text {
+      margin-top: 3%;
+      font-size: 0.9rem;
+    }
+  }
+}
