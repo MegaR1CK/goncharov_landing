@@ -1,0 +1,90 @@
+@mixin hexagon() {
+  .hexagon {
+    width: 100px;
+    height: 55px;
+    background: #1a84ce;
+    position: relative;
+    text-align: center;
+    margin: auto;
+  }
+  .hexagon:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #1a84ce;
+  }
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #1a84ce;
+  }
+}
+
+.first-ever-app {
+  margin-top: 4%;
+  text-align: center;
+
+  &__title {
+    font-family: $ff-section-title;
+  }
+
+  &__table {
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+  }
+
+  &__block {
+    font-family: $ff-first-ever-app;
+    border: 1px solid white;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    @include hexagon();
+
+    &__icon {
+      font-size: 3.5rem !important;
+      color: white;
+    }
+
+    &__line {
+      border-bottom: 1px solid black;
+      width: 75px;
+      margin: -6% auto auto;
+    }
+
+    &__title {
+      margin-top: 25%;
+      font-weight: bold;
+    }
+    &__text {
+      width: 250px;
+      color: #5a5a5a;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__block:first-child {
+    padding-right: 70px;
+    padding-left: 80px;
+    border-right: 2px solid grey;
+  }
+
+  &__block:last-child {
+    padding-left: 70px;
+    padding-right: 80px;
+    border-left: 2px solid grey;
+  }
+}
