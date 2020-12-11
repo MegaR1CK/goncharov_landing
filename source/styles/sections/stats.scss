@@ -1,0 +1,31 @@
+.stats {
+  background-image: url("../../images/stats-background.png");
+  min-height: 200px;
+  margin-top: 5%;
+  padding-top: 30px;
+  text-align: center;
+
+  &__block {
+    float: left;
+    width: 25%;
+    height: 140px;
+    color: white;
+    border-right: 1px solid white;
+
+    &__stat {
+      margin-top: 1%;
+      font-size: 5rem;
+      font-family: $ff-stats;
+      font-weight: normal;
+    }
+    &__desc {
+      font-family: $ff-stats-desc;
+      font-size: 1.1rem;
+      margin-top: -15%;
+    }
+  }
+
+  &__block:last-child {
+    border-right: none;
+  }
+}
