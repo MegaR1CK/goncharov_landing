@@ -1,0 +1,44 @@
+.who-we-are {
+  text-align: center;
+  padding-top: 2%;
+
+  &__title {
+    padding-bottom: 2%;
+    font-family: $ff-section-title;
+  }
+
+  &__employees {
+    &__employee {
+      font-family: $ff-who-we-are;
+      text-align: center;
+      float: left;
+      width: 33%;
+
+      &__name {
+        margin-top: 6%;
+        font-size: 1.1rem;
+      }
+
+      &__line {
+        width: 70px;
+        border-bottom: 1px solid black;
+        margin-top: -4.5%;
+        margin-left: 41%;
+      }
+
+      &__job {
+        font-size: 0.9rem;
+        color: grey;
+        margin-top: 3%;
+      }
+
+      &__networks {
+        margin-top: 5%;
+        &__icon {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

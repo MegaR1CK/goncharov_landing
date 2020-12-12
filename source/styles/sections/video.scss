@@ -25,6 +25,10 @@
       padding-top: 1%;
       padding-bottom: 0.1%;
 
+      &__title {
+        font-weight: normal;
+      }
+
       &__line {
         width: 32px;
         border-bottom: 1px solid white;
@@ -69,6 +73,7 @@
 
       &__title {
         font-family: $ff-video;
+        font-weight: normal;
         position: relative;
         top: -10px;
         left: 7%;
