@@ -1,0 +1,96 @@
+.pricing {
+  text-align: center;
+
+  &__title {
+    padding-top: 2%;
+    font-family: $ff-section-title;
+  }
+
+  &__content {
+    padding-top: 100px;
+    &__block {
+      width: 300px;
+      margin-right: 2%;
+      border: 1px solid #3271bf;
+      float: left;
+
+      &__name, &__name-adv {
+        font-family: $ff-pricing-default;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      &__name {
+        background: #3271bf;
+      }
+      &__name-adv {
+        background: linear-gradient(0deg, rgba(25,76,142,1) 0%, rgba(42,98,171,1) 50%, rgba(24,74,141,1) 100%);
+      }
+      &__dollar, &__dollar-adv, &__dollar-gold {
+        font-family: $ff-pricing-dollar;
+        color: white;
+        position: absolute;
+        font-size: 1.6rem;
+        margin-left: 6%;
+        margin-top: 0.3%;
+      }
+      &__dollar-adv {
+        margin-top: 1.4%;
+      }
+      &__dollar-gold {
+        margin-left: 5%;
+      }
+      &__price, &__price-adv {
+        font-family: $ff-pricing-price;
+        color: white;
+        font-size: 4rem;
+      }
+      &__price-adv {
+        padding-top: 7%;
+      }
+      &__time {
+        font-family: $ff-pricing-time;
+        color: white;
+      }
+      &__desc {
+        font-family: $ff-pricing-default;
+        font-size: 0.85rem;
+      }
+      &__line {
+        width: 290px;
+        margin-left: 4px;
+        border-bottom: 1px solid #3271bf;
+      }
+      &__button {
+        font-family: $ff-pricing-default;
+        display: inline-block;
+        background: #26679e;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        margin-top: 9%;
+        margin-bottom: 12%;
+      }
+    }
+    &__block:first-child {
+      margin-left: 9.5%;
+    }
+    &__block-adv {
+      margin-top: -68px;
+      box-shadow: 0 0 25px grey;
+    }
+  }
+}
+.triangle, .triangle-adv {
+  width: 298px;
+  margin-bottom: 50px;
+}
+.triangle {
+  height: 126px;
+  background-image: url("../../images/pricing-triangle.png");
+}
+.triangle-adv {
+  height: 194px;
+  background-image: url("../../images/pricing-triangle-adv.png");
+}

@@ -1,0 +1,40 @@
+- var arr = ['Australian prowfish European eel', 'Stonefish oarfish zebrafish batfish', 'Bigeye trout jewelfish deep.']
+section.pricing
+  .container
+    h2.pricing__title PRICING
+    .pricing__content
+      .pricing__content__block
+        .pricing__content__block__name FREE
+        .triangle
+          .pricing__content__block__dollar $
+          .pricing__content__block__price 0
+          .pricing__content__block__time /MONTH
+        each val in [0, 1, 2]
+          p.pricing__content__block__desc=arr[val]
+          if(val !== 2)
+            .pricing__content__block__line
+        a.pricing__content__block__button(href='#') SIGN UP
+
+      .pricing__content__block.pricing__content__block-adv
+        .pricing__content__block__name-adv PREMIUM
+        .triangle-adv
+          .pricing__content__block__dollar-adv $
+          .pricing__content__block__price-adv 9
+          .pricing__content__block__time /MONTH
+        each val in [0, 1, 2]
+          p.pricing__content__block__desc=arr[val]
+          if(val !== 2)
+            .pricing__content__block__line
+        a.pricing__content__block__button(href='#') SIGN UP
+
+      .pricing__content__block
+        .pricing__content__block__name GOLD
+        .triangle
+          .pricing__content__block__dollar-gold $
+          .pricing__content__block__price 19
+          .pricing__content__block__time /MONTH
+        each val in [0, 1, 2]
+          p.pricing__content__block__desc=arr[val]
+          if(val !== 2)
+            .pricing__content__block__line
+        a.pricing__content__block__button(href='#') SIGN UP

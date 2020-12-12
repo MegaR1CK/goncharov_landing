@@ -23,6 +23,22 @@
 }
 
 @font-face {
+  font-family: "open-sans-bold";
+  src: url("../../fonts/OpenSans-Bold.woff") format("woff"),
+  url("../../fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open-sans-light";
+  src: url("../../fonts/OpenSans-Light.woff") format("woff"),
+  url("../../fonts/OpenSans-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "poppins";
   src: url("../../fonts/Poppins-Regular.woff") format("woff"),
   url("../../fonts/Poppins-Regular.woff2") format("woff2");
@@ -75,6 +91,14 @@
   src: url("../../fonts/Oswald-SemiBold.woff") format("woff"),
   url("../../fonts/Oswald-SemiBold.woff2") format("woff2");
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "oswald-light";
+  src: url("../../fonts/Oswald-Light.woff") format("woff"),
+  url("../../fonts/Oswald-Light.woff2") format("woff2");
+  font-weight: normal;
   font-style: normal;
 }
 
