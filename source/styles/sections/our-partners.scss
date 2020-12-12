@@ -1,0 +1,14 @@
+.our-partners {
+  background: #eeeeee;
+  height: 230px;
+  text-align: center;
+
+  &__title {
+    font-family: $ff-section-title;
+    padding-top: 4%;
+  }
+
+  &__partners {
+    margin: 3% auto auto;
+  }
+}

@@ -37,8 +37,9 @@
       &__title {
         font-size: 1.2rem;
         font-family: $ff-feature;
-        font-weight: bold;
+        font-weight: normal;
       }
+
       &__line {
         margin-top: -4%;
         width: 75px;
@@ -58,6 +59,10 @@
       &__text, &__title {
         margin-left: 32%;
       }
+
+      &__text {
+        margin-top: 5%;
+      }
       &__line {
         margin-left: 32%;
       }
@@ -76,6 +81,7 @@
       &__text, &__title {
         margin-right: 32%;
       }
+
       &__line {
         float: right;
         margin-right: 32%;
