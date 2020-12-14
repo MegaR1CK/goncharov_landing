@@ -72,6 +72,10 @@
         text-decoration: none;
         margin-top: 9%;
         margin-bottom: 12%;
+        transition: 0.3s;
+      }
+      &__button:hover {
+        background: lighten(#26679e, 10%);
       }
     }
     &__block:first-child {

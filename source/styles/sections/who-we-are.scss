@@ -38,6 +38,11 @@
         &__icon {
           padding-left: 10px;
           padding-right: 10px;
+          transition: 0.3s;
+          color: black;
+        }
+        &__icon:hover {
+          color: lighten(black, 20%);
         }
       }
     }

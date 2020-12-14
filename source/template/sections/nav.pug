@@ -1,5 +1,6 @@
 .nav
   span.logo #[strong App]Logo
   - var items = ['HOME', 'FEATURES', 'SCREENSHOTS', 'VIDEO', 'SERVICES', 'TESTIMONIALS', 'OUR TEAM', 'PARTNERS', 'PRICING']
-  each item in items
-    a.nav__link(href="#")=item
+  - var ids = ['#', '#features', '#screenshots', '#video', '#services', '#testimonials', '#our-team', '#partners', '#pricing']
+  each elem in [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    a.nav__link(href=ids[elem])=items[elem]
