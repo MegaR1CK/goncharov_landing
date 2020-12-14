@@ -1,0 +1,82 @@
+.footer {
+  &__top {
+    font-family: $ff-footer;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    background: #0f62a8;
+
+    &__table {
+      border-collapse: collapse;
+      border: 0;
+
+      &__title {
+        font-weight: bold;
+        border: 0;
+      }
+
+      &__line {
+        border-bottom: 1px solid white;
+        width: 25px;
+        margin-left: 1px;
+      }
+
+      &__about, &__features, &__newsletter, &__contact {
+        vertical-align: top;
+        padding-top: 2%;
+        border: 0;
+        font-size: 0.9rem;
+      }
+
+      &__about {
+        width: 32%;
+
+        &__icon {
+          margin-right: 20px;
+          margin-top: 4%;
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+      &__features {
+        width: 20%;
+      }
+
+      &__newsletter {
+        width: 27%;
+
+        &__input {
+          background: transparent;
+          width: 220px;
+          border: none;
+          border-bottom: 1px solid white;
+        }
+
+        &__button {
+          float: right;
+          margin-right: 28%;
+          margin-top: 5%;
+          color: white;
+          text-decoration: none;
+          padding-top: 10px;
+          font-weight: bold;
+        }
+      }
+
+      &__contact {
+
+        &__link {
+          line-height: 1.8;
+          color: white;
+          text-decoration: none;
+        }
+
+        &__icon {
+          font-size: 1.1rem !important;
+          padding-right: 25px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.footer__top
+  .container
+    table.footer__top__table
+      tr
+          each str in ['About', 'Features', 'Newsletter', 'Contact Us']
+            td.footer__top__table__title=str
+              .footer__top__table__line
+      tr
+        td.footer__top__table__about
+          span Pilchard nurse shark roosterfish sea catfish
+          p spiderfish limia fingerfish.
+          a(href='#')
+            i.fa.fa-facebook.footer__top__table__about__icon(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-twitter.footer__top__table__about__icon(aria-hidden='true')
+          a(href='#')
+            i.fa.fa-google.footer__top__table__about__icon(aria-hidden='true')
+        td.footer__top__table__features
+          span Lorem ipsum
+          p Dolor sit amet
+          p Nullam sed
+          p Integer sagttis eget
+        td.footer__top__table__newsletter
+          form
+            input.footer__top__table__newsletter__input(type='text' value='Email')
+          a.footer__top__table__newsletter__button(href='#') Subscribe
+        td.footer__top__table__contact
+          a.footer__top__table__contact__link(href='mailto:hello@joomla-monster.com')
+            i.fa.fa-envelope-o.footer__top__table__contact__icon(aria-hidden='true')
+            span hello@joomla-monster.com
+          br
+          a.footer__top__table__contact__link(href='joomla.monster.com')
+            i.fa.fa-globe.footer__top__table__contact__icon(aria-hidden='true')
+            span  joomla.monster.com
+          br
+          a.footer__top__table__contact__link(href='tel:+48 123 456 789')
+            i.fa.fa-phone.footer__top__table__contact__icon(aria-hidden='true')
+            span  +48 123 456 789
